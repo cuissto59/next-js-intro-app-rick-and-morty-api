@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  .max-width {
+    @apply maw-w-[1440px] mx-auto;
+  }
+
+  .padding-x {
+    @apply sm:px-16 px-6;
+  }
+
+  .hero {
+    @apply grid gap-5 relative  mx-auto place-items-center min-h-[100vh] bg-black;
+  }
+
+  .hero_title_middle {
+    position: absolute;
+    bottom: 0.5em;
+    width: 100%;
+    text-align: center;
+    font-family: 'Creepster', serif;
+    font-size: 10em;
+    -webkit-text-stroke: 0.1em #fff765;
+    z-index: 49;
+  }
+
+  .container,
+  .container img {
+    @apply absolute;
+  }
+}
