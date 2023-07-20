@@ -1,4 +1,4 @@
-import { Box } from '@/components/Box';
+import Box from '@/components/Box/Box';
 import { characterAtomId } from '@/state/atoms';
 import { useSetAtom } from 'jotai';
 
