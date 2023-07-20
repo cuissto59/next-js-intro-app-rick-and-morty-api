@@ -1,10 +1,10 @@
 'use client';
 import { Badge } from '@/components/Badge/Badge';
+import Box from '@/components/Box/Box';
 import { resolveGenderBadgeColor } from '@/components/GalleryCard/helpers';
 import { Character } from '@/interfaces/characters';
 
 import Image from 'next/image';
-import { Box } from '../Box';
 
 interface GalleryCardProps {
   character: Character;
@@ -15,7 +15,7 @@ export const GalleryCard = ({ character }: GalleryCardProps) => {
     gender: character.gender,
   });
   return (
-    <Box className={'flex flex-col'}>
+    <Box>
       <Box as={'h2'} className={'mb-0.5 font-bold text-5xl font-[Creepster]'}>
         {character.name}
       </Box>

@@ -1,5 +1,5 @@
 'use client';
-import {Box} from '@/components/Box';
+import Box from '@/components/Box/Box';
 import {Back} from '@/components/DetailSection/Back';
 import {Next} from '@/components/DetailSection/Next';
 import {Randomize} from '@/components/DetailSection/Randomize';
@@ -8,7 +8,7 @@ import React, {Suspense} from 'react';
 import {Id} from './Id';
 
 
-export const DetailSection = () => {
+const DetailSection = () => {
     return (
         <Box className={'flex  mt-2 min-h-[50vh]'}>
             <Id/>
@@ -23,3 +23,4 @@ export const DetailSection = () => {
         </Box>
     );
 };
+export default DetailSection;

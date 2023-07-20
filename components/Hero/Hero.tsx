@@ -1,11 +1,11 @@
 'use client';
+import Box from '@/components/Box/Box';
 import { HERO_TITLE } from '@/constants/constants';
 import { angle } from '@/helpers/helpers';
 import Eye from 'assets/img/eye.png';
 import Look_Morty from 'assets/img/Look_Morty.png';
 import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react';
-import { Box } from '../Box';
 
 export const Hero = () => {
   const anchor = useRef<HTMLImageElement>(null);

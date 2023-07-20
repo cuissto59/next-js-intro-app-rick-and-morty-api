@@ -495,6 +495,16 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.19.tgz#49ccbd0606633d1e55baf3b91ab7cc7aef411b1d"
   integrity sha512-uPe1DukeIpIHpQi6UzIgBcXsjjsDaLnc7hF+zLBKnaUlh7jFE/A+P8t4cU4VzKPMFB/C970n/9SxtpO5hmIRgw==
 
+"@trpc/client@^10.34.0":
+  version "10.34.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.34.0.tgz#cd9bc5ec4801dde24bb343408c7fe203595db538"
+  integrity sha512-nqtDTIqSY/9syo2EjSy4WWWXPU9GsamEh9Tsg698gLAh1nhgFc5+/YYeb+Ne1pbvWGZ5/3t9Dcz3h4wMyyJ9gQ==
+
+"@trpc/server@^10.34.0":
+  version "10.34.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.34.0.tgz#0c56ca4a72f41bfc558b07a2db70d54b77077f8f"
+  integrity sha512-2VMW44Fpaoyqb50dBtzdSWMhqt8lmoJiocEyBBeDb03R0W+XrzbVD5kU/wqKPlcp1DWeNCkOEIMtetMZCfo1hA==
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.9.tgz#df4907fc07a886922637b15e02d4cebc4c0021b2"
@@ -2153,6 +2163,11 @@ jotai-tanstack-query@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/jotai-tanstack-query/-/jotai-tanstack-query-0.7.1.tgz#3035d5e1d2393298a4f5c37a47eb90acb8534b00"
   integrity sha512-62PDt8s3c1fN/f3AmTMzAFUHZAstUIPUZMFdhERbmTRWiGznVAq6uJMt08FCI3JL53wZj5q5FhuA39LTL5zqRg==
+
+jotai-trpc@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/jotai-trpc/-/jotai-trpc-0.5.1.tgz#a35c97ddeaa22d0fe1fc614aa9bc4eb268c93400"
+  integrity sha512-aRr7HYatqOaeFqYCPJvX1LHGAV3SW+0YhN/YCJcAalmj8enh91n6Dcg9RVfgY4R7NI9CPesZKMcpzd8QlnAvKQ==
 
 jotai@^2.2.2:
   version "2.2.2"
